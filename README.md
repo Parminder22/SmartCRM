@@ -17,18 +17,19 @@ This is a transnational dataset that contains all the transactions occurring bet
 - **K-Means Clustering** is an Unsupervised Learning algorithm, which groups the unlabeled dataset into k-number clusters. It allows us to cluster the data into different groups and a convenient way to discover the categories of groups in the unlabeled dataset on its own without the need for any training.
   
   We first used The **Elbow Method**, which is a graphical method for finding the optimal K value.
-  ![Elbow](https://github.com/maissaladjimi/RFM_Customer_Segmentation/assets/94018321/e7f5f120-944d-488e-8515-d6aad646fb8f)
+  ![Elbow](assets/elbow.png)
   
   It revealed that the optimal K=5. After running the model, the following clusters were revealed
   
-  ![PCA_KMeans](https://github.com/maissaladjimi/RFM_Customer_Segmentation/assets/94018321/a059ef81-4c32-4e7a-bbc7-8fb77794bb57)
+  ![PCA_KMeans](assets/pca_clusters.png)
 
 ## Cluster Interpretation 
 In order to understand the characteristics of each cluster and identify the segment properties, we calculated the mean values for Recency, Frequency, and Monetary for each cluster. Additionally, for more visual interpretation, we visualized the distribution of clusters against each variable. 
 
-![Means](https://github.com/maissaladjimi/RFM_Customer_Segmentation/assets/94018321/80b8bb61-27ba-4a21-ba17-d19ccff6658c)
+![catplots](assets/distribution_table.png)
+![Means](assets/cluster_means.png)
 
-![catplots](https://github.com/maissaladjimi/RFM_Customer_Segmentation/assets/94018321/62d7dc41-494d-4571-9811-f9ab7d869efe)
+
 
 - **Cluster 0: **Inactive Shoppers**** Recency: 253.20, Frequency: 1.47, Monetary: 49.19 Customers who haven't been active for an extended period, with no recent purchases.
 
@@ -43,5 +44,5 @@ In order to understand the characteristics of each cluster and identify the segm
 After Identifying the clusters, each customer was assigned its respective segment.These segments are essential  for more effective and targeted marketing strategies tailored to their specific engagement and spending patterns. 
 
 <div align="center">
-  <img src="https://github.com/maissaladjimi/RFM_Customer_Segmentation/assets/94018321/65bce3e4-75d6-49b4-978b-414888d1ade0" alt="Customer Segments">
+  <img src="assets/customer_segments.png" alt="Customer Segments">
 </div>
