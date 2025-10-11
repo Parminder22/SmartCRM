@@ -21,7 +21,7 @@ This is a transnational dataset that contains all the transactions occurring bet
   
   It revealed that the optimal K=5. After running the model, the following clusters were revealed
   
-  ![PCA_KMeans](assets/pca_clusters.png)
+  ![PCA_KMeans](assets/pca_clustering.png)
 
 ## Cluster Interpretation 
 In order to understand the characteristics of each cluster and identify the segment properties, we calculated the mean values for Recency, Frequency, and Monetary for each cluster. Additionally, for more visual interpretation, we visualized the distribution of clusters against each variable. 
