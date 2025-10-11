@@ -1,8 +1,12 @@
-# RFM Customer Segmentation using PCA and K-Means Clustering
+# SmartCRM Customer Segmentation
 ## Introduction 
-RFM segmentation is a marketing analysis method that involves analyzing customer behavior based on three key factors: recency, frequency, and monetary value. It helps businesses group customers into segments, enabling targeted and personalized marketing strategies. 
+SmartCRM uses RFM (Recency, Frequency, Monetary) segmentation to analyze customer behavior and generate actionable insights. By grouping customers into meaningful segments, businesses can implement targeted marketing and personalized strategies.
 
-Recency indicates how recently a customer has made a purchase, while Frequency measures how often they make purchases, and Monetary represents the amount of money a customer spends on purchases.
+Recency: How recently a customer made a purchase
+
+Frequency: How often a customer makes purchases
+
+Monetary: How much a customer spends
 ## Data Collection 
 The data is available on [Kaggle](https://www.kaggle.com/datasets/ersany/online-retail-dataset) with an Open Database License (ODbL).
 
