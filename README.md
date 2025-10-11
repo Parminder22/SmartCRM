@@ -50,3 +50,15 @@ After Identifying the clusters, each customer was assigned its respective segmen
 <div align="center">
   <img src="assets/customer_segments.png" alt="Customer Segments">
 </div>
+
+SmartCRM Interactive Dashboard
+
+To make the customer insights more interactive and visually appealing, we created a Streamlit-based dashboard. Users can explore RFM metrics, customer segments, and cluster visualizations dynamically.
+
+View individual customer details by segment
+
+Filter customers based on Recency, Frequency, or Monetary value
+
+Interactive charts to analyze cluster distributions and insights
+
+<div align="center"> <img src="assets/streamlit_dashboard.png" alt="SmartCRM Dashboard" width="800"/> </div>
